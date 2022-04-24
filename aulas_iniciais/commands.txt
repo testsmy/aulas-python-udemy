@@ -1,2 +1,3 @@
 sep -> set separator
 end -> set end of line contents
+len -> counts number of characters in string
