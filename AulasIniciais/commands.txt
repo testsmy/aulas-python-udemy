@@ -1,0 +1,2 @@
+sep -> set separator
+end -> set end of line contents
