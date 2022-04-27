@@ -2,7 +2,15 @@
 # Tell if it is even or odd
 # Check if the number entered is an intereger
 
-number1 = input('Digite um número inteiro: ')
-print('Analisando número digitado...')
-if number1 / 2 ==
-print(f'O número {number1}')
+name = input('Por favor, digite o seu nome: ')
+number1 = input('Agora, Digite um número inteiro: ')
+print(f'{name} aguarde um momento, estamos analisando o número digitado...')
+
+if number1.isdigit():
+    number1 = int(number1)
+    if number1 % 2 == 0:
+        print(f'{name} o número que você digitou é par')
+    else:
+        print(f'{name} o número que você digitou é ímpar')
+else:
+    print(f'{name} Você não digitou um número! Bye')
