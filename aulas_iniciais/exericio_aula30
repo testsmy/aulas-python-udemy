@@ -1,0 +1,8 @@
+# Enter with intereger number
+# Tell if it is even or odd
+# Check if the number entered is an intereger
+
+number1 = input('Digite um número inteiro: ')
+print('Analisando número digitado...')
+if number1 / 2 ==
+print(f'O número {number1}')
