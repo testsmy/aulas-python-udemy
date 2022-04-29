@@ -32,3 +32,15 @@ if time_now.isdigit():
 else:
     print('Por favor, digite um número válido')
  """
+
+# Analyze name size
+
+name = input('Digite o seu nome para análise do tamanho: ')
+name_size = len(name)
+
+if name_size <= 4:
+    print(f'{name} é considerado um nome curto!')
+elif name_size >= 5 and name_size <= 6:
+    print(f'{name} é considerado um nome normal!')
+else:
+    print(f'{name} é considerado um nome muito grande!')
