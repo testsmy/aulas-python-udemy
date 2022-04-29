@@ -23,18 +23,22 @@ time_now = input('Que horas? ')
 
 if time_now.isdigit():
     time_now = int(time_now)
-    if time_now >= 00 and time_now < 12:
-        print('Bom dia!')
-    elif time_now > 11 and time_now <= 17:
-        print('Boa Tarde!')
+
+    if time_now > 23 or time_now < 0:
+        print('Digite um horário entre 0 e 23')
     else:
-        print('Boa NOITE!')
+        if time_now >= 00 and time_now < 12:
+            print('Bom dia!')
+        elif time_now > 11 and time_now <= 17:
+            print('Boa Tarde!')
+        else:
+            print('Boa NOITE!')
 else:
     print('Por favor, digite um número válido')
  """
 
 # Analyze name size
-
+""" 
 name = input('Digite o seu nome para análise do tamanho: ')
 name_size = len(name)
 
@@ -44,3 +48,4 @@ elif name_size >= 5 and name_size <= 6:
     print(f'{name} é considerado um nome normal!')
 else:
     print(f'{name} é considerado um nome muito grande!')
+ """
