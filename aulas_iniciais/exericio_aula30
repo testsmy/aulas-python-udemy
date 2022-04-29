@@ -1,7 +1,8 @@
+
 # Enter with intereger number
 # Tell if it is even or odd
 # Check if the number entered is an intereger
-
+"""
 name = input('Por favor, digite o seu nome: ')
 number1 = input('Agora, Digite um número inteiro: ')
 print(f'{name} aguarde um momento, estamos analisando o número digitado...')
@@ -14,3 +15,20 @@ if number1.isdigit():
         print(f'{name} o número que você digitou é ímpar')
 else:
     print(f'{name} Você não digitou um número! Bye')
+"""
+
+# Program informs the time
+""" 
+time_now = input('Que horas? ')
+
+if time_now.isdigit():
+    time_now = int(time_now)
+    if time_now >= 00 and time_now < 12:
+        print('Bom dia!')
+    elif time_now > 11 and time_now <= 17:
+        print('Boa Tarde!')
+    else:
+        print('Boa NOITE!')
+else:
+    print('Por favor, digite um número válido')
+ """
